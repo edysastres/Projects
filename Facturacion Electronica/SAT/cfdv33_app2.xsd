@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:mstns="http://www.sat.gob.mx/cfd/3" xmlns="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app2="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:app1="http://www.sat.gob.mx/sitio_internet/cfd/catalogos">
+  <xs:import namespace="http://www.sat.gob.mx/cfd/3" schemaLocation="cfdv33.xsd" />
+  <xs:import namespace="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" schemaLocation="cfdv33_app1.xsd" />
+  <xs:simpleType name="t_Importe">
+    <xs:restriction base="xs:decimal" />
+  </xs:simpleType>
+  <xs:simpleType name="t_FechaH">
+    <xs:restriction base="xs:dateTime" />
+  </xs:simpleType>
+  <xs:simpleType name="t_RFC">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="13" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema targetNamespace="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:mstns="http://www.sat.gob.mx/cfd/3" xmlns="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:app1="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:app2="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <xs:import namespace="http://www.sat.gob.mx/cfd/3" schemaLocation="cfdv33.xsd" />
+  <xs:import namespace="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" schemaLocation="cfdv33_app2.xsd" />
+  <xs:simpleType name="c_Impuesto">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_TipoFactor">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_FormaPago">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_Moneda">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_TipoDeComprobante">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_MetodoPago">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_CodigoPostal">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_TipoRelacion">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_RegimenFiscal">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_Pais">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_UsoCFDI">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_ClaveProdServ">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="c_ClaveUnidad">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+</xs:schema>
