@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="UiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_3.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_4.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_5.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_6.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_7.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_8.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_9.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_10.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout_Reference_11.Instance" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA4
+        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEsAQQBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/0YAAXkRAAIqAVEqAAFY
+        AcMBegFYDgABcwEqAVkDMScAAXkBoAIbAf8BoAFZAXkLAAFSASsBoANZATEBSyUAAVkB9gHDAesBcwGZ
+        AfYBwwF6AVkBeQcAARwBMQErAaAEWQFYASoFAAFFAUYBJQEkAUUBbhgAAXkBoAGaAcMBmQFWAVUBUAGZ
+        ARoB/wGgATcEAAEqAZkCUgExAcMD5QJ6ASoEAAEkBEwCJQGGAawBrQGRFAABWAHDAZoBeQF4An0BTwF4
+        ApkBegF5AwABcwEqAXoBMQEaATEBwwKgAeUBeQHDASoEAAFFAUwCUwJMASUBrQGsAa0BihQAAVkEwwFW
+        AX0BlwFPAZgBwwFYBAABUgErAaADMQEaAZoBoAF5AaABwwEqBQABTAFTAUYBRQElASQBrAHbAa0BixMA
+        AXQBoAGZAnkBmgGfAn0BlwFPAVEEAAEcATEBKwGgAuUBMQJSBPYBKgUAAW8BTAFTAXoBJAGmAZEBvAHH
+        AZETAAFSA8MBoAGaAXkBVwJ9AVYBTwQAAlIBMQHDA+UCegErATEC/wErBgADegFTASoBUwF6AXQUAAFS
+        AaACeQKgAsMCfQGYAQcBbgMAAVIBGgExAcMCoAHlAXkBwwGZAVICMQFRBgABegKaAXoBKgKaAXoUAAFY
+        AcMCoAR5AZoBmQH/AXUBRgFFAgADMQEaAZoBoAF5AaABwwEqCQABUgEqApoBdQEqApoBehQAAVIBWAF6
+        AeUBoAHDAqABmgF6AXQBTQFGAUUEAANSBPYBKgkAAXQBMQFSAXoBKgExASsCMRcAAXQBUgJYAXoBoAFY
+        AQABRgFFCAABUgExAv8BKwoAAVECKgJRATEBUgFzHAACdAwAAVICMQFRZQABQgFNAT4HAAE+AwABKAMA
+        AUADAAEQAwABAQEAAQEFAAGAFwAD/wEABv8CAAH7Af8B/gE/Av8CAAHwAf8B/AEPAv8CAAHgAR8B/AED
+        Av8CAAHgAQMB+AEBAfABPwIAAcABAQHgAQEB4AEDAgABwAEBAcABAQHgAQMCAAHAAQMBwAEBAfABAwIA
+        AYABBwGAAQEB8AEDAgABgAEHAYABAQH4AQcCAAGAAQMBgAEBAfgBBwIAAYABAQGAAR8B8AEHAgABgAEB
+        AeABHwHwAQcCAAHwARMB/AEfAfgBBwIAAf8BnwH+AR8C/wIABv8YAAs=
+</value>
+  </data>
+  <data name="jngLineaFactura_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDLineaFactura"&gt;&lt;Caption&gt;IDLineaFactura&lt;/Caption&gt;&lt;DataMember&gt;IDLineaFactura&lt;/DataMember&gt;&lt;Key&gt;IDLineaFactura&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;Column2 ID="NFactura"&gt;&lt;Caption&gt;NFactura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column2&gt;&lt;Column3 ID="Texto"&gt;&lt;EditButtonDisplayMode&gt;Always&lt;/EditButtonDisplayMode&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;DataMember&gt;Texto&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderImageIndex&gt;0&lt;/HeaderImageIndex&gt;&lt;ImageIndex&gt;0&lt;/ImageIndex&gt;&lt;Key&gt;Texto&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="BotonAnalitica"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderImageIndex&gt;1&lt;/HeaderImageIndex&gt;&lt;ImageIndex&gt;1&lt;/ImageIndex&gt;&lt;Key&gt;BotonAnalitica&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;22&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="BotonRepresentante"&gt;&lt;EditButtonDisplayMode&gt;Always&lt;/EditButtonDisplayMode&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderImageIndex&gt;2&lt;/HeaderImageIndex&gt;&lt;ImageIndex&gt;2&lt;/ImageIndex&gt;&lt;ImageSize&gt;16, 16&lt;/ImageSize&gt;&lt;Key&gt;BotonRepresentante&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;22&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="Impuestos"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderImageIndex&gt;3&lt;/HeaderImageIndex&gt;&lt;ImageIndex&gt;3&lt;/ImageIndex&gt;&lt;Key&gt;Impuestos&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;22&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="CopiaLineaAlbaran"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;ImageIndex&gt;3&lt;/ImageIndex&gt;&lt;Key&gt;CopiaLineaAlbaran&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;22&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="IDArticulo"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column8.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Artículo&lt;/Caption&gt;&lt;DataMember&gt;IDArticulo&lt;/DataMember&gt;&lt;Key&gt;IDArticulo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="DescArticulo"&gt;&lt;Caption&gt;Desc. Artículo&lt;/Caption&gt;&lt;DataMember&gt;DescArticulo&lt;/DataMember&gt;&lt;Key&gt;DescArticulo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="Cantidad"&gt;&lt;Caption&gt;Cantidad&lt;/Caption&gt;&lt;DataMember&gt;Cantidad&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;Cantidad&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDUdMedida"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column11.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Ud. Medida&lt;/Caption&gt;&lt;DataMember&gt;IDUdMedida&lt;/DataMember&gt;&lt;Key&gt;IDUdMedida&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="Precio"&gt;&lt;Caption&gt;Precio&lt;/Caption&gt;&lt;DataMember&gt;Precio&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Precio&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Dto1"&gt;&lt;Caption&gt;Dto. 1&lt;/Caption&gt;&lt;DataMember&gt;Dto1&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Dto1&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="Dto2"&gt;&lt;Caption&gt;Dto. 2&lt;/Caption&gt;&lt;DataMember&gt;Dto2&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Dto2&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="Dto3"&gt;&lt;Caption&gt;Dto. 3&lt;/Caption&gt;&lt;DataMember&gt;Dto3&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Dto3&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;/Column15&gt;&lt;Column16 ID="Dto"&gt;&lt;Caption&gt;Dto. Comercial&lt;/Caption&gt;&lt;DataMember&gt;Dto&lt;/DataMember&gt;&lt;Key&gt;Dto&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;CellStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;/CellStyle&gt;&lt;/Column16&gt;&lt;Column17 ID="DtoProntoPago"&gt;&lt;Caption&gt;Dto. Pronto Pago&lt;/Caption&gt;&lt;DataMember&gt;DtoProntoPago&lt;/DataMember&gt;&lt;Key&gt;DtoProntoPago&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;CellStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;/CellStyle&gt;&lt;/Column17&gt;&lt;Column18 ID="Importe"&gt;&lt;Caption&gt;Importe&lt;/Caption&gt;&lt;DataMember&gt;Importe&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Importe&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="IDTipoLinea"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column19.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Tipo Linea&lt;/Caption&gt;&lt;DataMember&gt;IDTipoLinea&lt;/DataMember&gt;&lt;Key&gt;IDTipoLinea&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Width&gt;71&lt;/Width&gt;&lt;/Column19&gt;&lt;Column20 ID="CContable"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column20.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;C. Contable&lt;/Caption&gt;&lt;DataMember&gt;CContable&lt;/DataMember&gt;&lt;Key&gt;CContable&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column20&gt;&lt;Column21 ID="IDTipoIVA"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column21.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Tipo IVA&lt;/Caption&gt;&lt;DataMember&gt;IDTipoIVA&lt;/DataMember&gt;&lt;Key&gt;IDTipoIVA&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Width&gt;54&lt;/Width&gt;&lt;/Column21&gt;&lt;Column22 ID="DescRefCliente"&gt;&lt;Caption&gt;DescRefCliente&lt;/Caption&gt;&lt;DataMember&gt;DescRefCliente&lt;/DataMember&gt;&lt;Key&gt;DescRefCliente&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;/Column22&gt;&lt;Column23 ID="Nº. Pedido"&gt;&lt;Caption&gt;Nº. Pedido&lt;/Caption&gt;&lt;DataMember&gt;NPedido&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Nº. Pedido&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Width&gt;82&lt;/Width&gt;&lt;/Column23&gt;&lt;Column24 ID="Nº. Albarán"&gt;&lt;Caption&gt;Nº. Albaran&lt;/Caption&gt;&lt;DataMember&gt;NAlbaran&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Nº. Albarán&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Width&gt;82&lt;/Width&gt;&lt;/Column24&gt;&lt;Column25 ID="QInterna"&gt;&lt;Caption&gt;C. Interna&lt;/Caption&gt;&lt;DataMember&gt;QInterna&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;QInterna&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="QTiempo"&gt;&lt;Caption&gt;Total das&lt;/Caption&gt;&lt;DataMember&gt;QTiempo&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;QTiempo&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column26&gt;&lt;Column27 ID="IDUdInterna"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column27.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Ud. Interna&lt;/Caption&gt;&lt;DataMember&gt;IDUdInterna&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDUdInterna&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;/Column27&gt;&lt;Column28 ID="Factor"&gt;&lt;Caption&gt;Factor&lt;/Caption&gt;&lt;DataMember&gt;Factor&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;Factor&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;47&lt;/Width&gt;&lt;/Column28&gt;&lt;Column29 ID="UdValoracion"&gt;&lt;Caption&gt;Ud. Valoracion&lt;/Caption&gt;&lt;DataMember&gt;UdValoracion&lt;/DataMember&gt;&lt;Key&gt;UdValoracion&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;Width&gt;30&lt;/Width&gt;&lt;/Column29&gt;&lt;Column30 ID="IDPedido"&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Pedido&lt;/Caption&gt;&lt;DataMember&gt;IDPedido&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDPedido&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column30&gt;&lt;Column31 ID="RefCliente"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column31.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Ref. Cliente&lt;/Caption&gt;&lt;DataMember&gt;RefCliente&lt;/DataMember&gt;&lt;Key&gt;RefCliente&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;Width&gt;56&lt;/Width&gt;&lt;/Column31&gt;&lt;Column32 ID="Regalo"&gt;&lt;Caption&gt;Regalo&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Regalo&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Regalo&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column32&gt;&lt;Column33 ID="IDAlbaran"&gt;&lt;Caption&gt;Albarán&lt;/Caption&gt;&lt;DataMember&gt;IDAlbaran&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDAlbaran&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column33&gt;&lt;Column34 ID="IdLineaAlbaran"&gt;&lt;Caption&gt;IdLineaAlbaran&lt;/Caption&gt;&lt;DataMember&gt;IdLineaAlbaran&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IdLineaAlbaran&lt;/Key&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column34&gt;&lt;Column35 ID="PedidoCliente"&gt;&lt;Caption&gt;Pedido Cliente&lt;/Caption&gt;&lt;DataMember&gt;PedidoCliente&lt;/DataMember&gt;&lt;Key&gt;PedidoCliente&lt;/Key&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column35&gt;&lt;Column36 ID="IDCentroGestion"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column36.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Centro Gestión&lt;/Caption&gt;&lt;DataMember&gt;IDCentroGestion&lt;/DataMember&gt;&lt;Key&gt;IDCentroGestion&lt;/Key&gt;&lt;Position&gt;36&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column36&gt;&lt;Column37 ID="IdPromocionLinea"&gt;&lt;Caption&gt;IDPromocionLinea&lt;/Caption&gt;&lt;DataMember&gt;IDPromocionLinea&lt;/DataMember&gt;&lt;Key&gt;IdPromocionLinea&lt;/Key&gt;&lt;Position&gt;37&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column37&gt;&lt;Column38 ID="IDObra"&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;IDObra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;38&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;72&lt;/Width&gt;&lt;/Column38&gt;&lt;Column39 ID="NObra"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column39.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;39&lt;/Position&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;/Column39&gt;&lt;Column40 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;40&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column40&gt;&lt;Column41 ID="CodTrabajo"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column41.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;41&lt;/Position&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column41&gt;&lt;Column42 ID="IDOrdenLinea"&gt;&lt;Caption&gt;Orden&lt;/Caption&gt;&lt;DataMember&gt;IDOrdenLinea&lt;/DataMember&gt;&lt;Key&gt;IDOrdenLinea&lt;/Key&gt;&lt;Position&gt;42&lt;/Position&gt;&lt;Width&gt;64&lt;/Width&gt;&lt;/Column42&gt;&lt;Column43 ID="Revision"&gt;&lt;Caption&gt;Revision&lt;/Caption&gt;&lt;DataMember&gt;Revision&lt;/DataMember&gt;&lt;Key&gt;Revision&lt;/Key&gt;&lt;Position&gt;43&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column43&gt;&lt;Column44 ID="IdLineaOfertaDetalle"&gt;&lt;Caption&gt;Contrato&lt;/Caption&gt;&lt;DataMember&gt;IdLineaOfertaDetalle&lt;/DataMember&gt;&lt;Key&gt;IdLineaOfertaDetalle&lt;/Key&gt;&lt;Position&gt;44&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column44&gt;&lt;Column45 ID="NumOferta"&gt;&lt;Caption&gt;Contrato&lt;/Caption&gt;&lt;DataMember&gt;NumOferta&lt;/DataMember&gt;&lt;Key&gt;NumOferta&lt;/Key&gt;&lt;Position&gt;45&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column45&gt;&lt;Column46 ID="IDConcepto"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column46.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Concepto&lt;/Caption&gt;&lt;DataMember&gt;IDConcepto&lt;/DataMember&gt;&lt;Key&gt;IDConcepto&lt;/Key&gt;&lt;Position&gt;46&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column46&gt;&lt;Column47 ID="DescConcepto"&gt;&lt;Caption&gt;Desc. Concepto&lt;/Caption&gt;&lt;DataMember&gt;DescConcepto&lt;/DataMember&gt;&lt;Key&gt;DescConcepto&lt;/Key&gt;&lt;Position&gt;47&lt;/Position&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column47&gt;&lt;Column48 ID="TipoFactAlquiler"&gt;&lt;Caption&gt;Tipo Factura Alquiler&lt;/Caption&gt;&lt;DataMember&gt;TipoFactAlquiler&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;Key&gt;TipoFactAlquiler&lt;/Key&gt;&lt;Position&gt;48&lt;/Position&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column48&gt;&lt;Column49 ID="SeguimientoTarifa"&gt;&lt;Caption&gt;Seguimiento Tarifa&lt;/Caption&gt;&lt;DataMember&gt;SeguimientoTarifa&lt;/DataMember&gt;&lt;Key&gt;SeguimientoTarifa&lt;/Key&gt;&lt;Position&gt;49&lt;/Position&gt;&lt;/Column49&gt;&lt;Column50 ID="Lote"&gt;&lt;Caption&gt;Lote&lt;/Caption&gt;&lt;DataMember&gt;Lote&lt;/DataMember&gt;&lt;Key&gt;Lote&lt;/Key&gt;&lt;Position&gt;50&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column50&gt;&lt;Column51 ID="IdLineaMaterial"&gt;&lt;Caption&gt;IdLineaMaterial&lt;/Caption&gt;&lt;DataMember&gt;IdLineaMaterial&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IdLineaMaterial&lt;/Key&gt;&lt;Position&gt;51&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column51&gt;&lt;Column52 ID="IDTarifa"&gt;&lt;Caption&gt;Tarifa&lt;/Caption&gt;&lt;DataMember&gt;IDTarifa&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDTarifa&lt;/Key&gt;&lt;Position&gt;52&lt;/Position&gt;&lt;/Column52&gt;&lt;Column53 ID="IDPromocion"&gt;&lt;Caption&gt;Promoción&lt;/Caption&gt;&lt;DataMember&gt;IDPromocion&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDPromocion&lt;/Key&gt;&lt;Position&gt;53&lt;/Position&gt;&lt;/Column53&gt;&lt;Column54 ID="ImporteA"&gt;&lt;Caption&gt;ImporteA&lt;/Caption&gt;&lt;DataMember&gt;ImporteA&lt;/DataMember&gt;&lt;Key&gt;ImporteA&lt;/Key&gt;&lt;Position&gt;54&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column54&gt;&lt;Column55 ID="ImporteB"&gt;&lt;Caption&gt;ImporteB&lt;/Caption&gt;&lt;DataMember&gt;ImporteB&lt;/DataMember&gt;&lt;Key&gt;ImporteB&lt;/Key&gt;&lt;Position&gt;55&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column55&gt;&lt;Column56 ID="IDAlbaranRetorno"&gt;&lt;Caption&gt;IDAlbaranRetorno&lt;/Caption&gt;&lt;DataMember&gt;IDAlbaranRetorno&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDAlbaranRetorno&lt;/Key&gt;&lt;Position&gt;56&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column56&gt;&lt;Column57 ID="Especial"&gt;&lt;Caption&gt;Especial&lt;/Caption&gt;&lt;DataMember&gt;Especial&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Especial&lt;/Key&gt;&lt;Position&gt;57&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column57&gt;&lt;Column58 ID="IDInmueble"&gt;&lt;Caption&gt;Inmueble&lt;/Caption&gt;&lt;DataMember&gt;IDInmueble&lt;/DataMember&gt;&lt;Key&gt;IDInmueble&lt;/Key&gt;&lt;Position&gt;58&lt;/Position&gt;&lt;/Column58&gt;&lt;Column59 ID="DescInmueble"&gt;&lt;Caption&gt;Desc. Inmueble&lt;/Caption&gt;&lt;DataMember&gt;DescInmueble&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;DescInmueble&lt;/Key&gt;&lt;Position&gt;59&lt;/Position&gt;&lt;/Column59&gt;&lt;Column60 ID="IDOT"&gt;&lt;Caption&gt;IDOT&lt;/Caption&gt;&lt;DataMember&gt;IDOT&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDOT&lt;/Key&gt;&lt;Position&gt;60&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column60&gt;&lt;Column61 ID="NROT"&gt;&lt;Caption&gt;O. T.&lt;/Caption&gt;&lt;DataMember&gt;NROT&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;NROT&lt;/Key&gt;&lt;Position&gt;61&lt;/Position&gt;&lt;/Column61&gt;&lt;Column62 ID="IDMntoOTControl"&gt;&lt;Caption&gt;Control O.T.&lt;/Caption&gt;&lt;DataMember&gt;IDMntoOTControl&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDMntoOTControl&lt;/Key&gt;&lt;Position&gt;62&lt;/Position&gt;&lt;/Column62&gt;&lt;Column63 ID="IDUDInterna2"&gt;&lt;Caption&gt;Ud. Interna 2&lt;/Caption&gt;&lt;DataMember&gt;IDUDInterna2&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDUDInterna2&lt;/Key&gt;&lt;Position&gt;63&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column63&gt;&lt;Column64 ID="QInterna2"&gt;&lt;Caption&gt;C. Interna 2&lt;/Caption&gt;&lt;DataMember&gt;QInterna2&lt;/DataMember&gt;&lt;Key&gt;QInterna2&lt;/Key&gt;&lt;Position&gt;64&lt;/Position&gt;&lt;/Column64&gt;&lt;Column65 ID="PreciocosteA"&gt;&lt;Caption&gt;PreciocosteA&lt;/Caption&gt;&lt;DataMember&gt;PreciocosteA&lt;/DataMember&gt;&lt;Key&gt;PreciocosteA&lt;/Key&gt;&lt;Position&gt;65&lt;/Position&gt;&lt;/Column65&gt;&lt;Column66 ID="PreciocosteB"&gt;&lt;Caption&gt;PreciocosteB&lt;/Caption&gt;&lt;DataMember&gt;PreciocosteB&lt;/DataMember&gt;&lt;Key&gt;PreciocosteB&lt;/Key&gt;&lt;Position&gt;66&lt;/Position&gt;&lt;/Column66&gt;&lt;Column67 ID="IDLineaPadre"&gt;&lt;Caption&gt;IDLineaPadre&lt;/Caption&gt;&lt;DataMember&gt;IDLineaPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDLineaPadre&lt;/Key&gt;&lt;Position&gt;67&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column67&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;ImageList.ColorDepth&gt;Depth8Bit&lt;/ImageList.ColorDepth&gt;&lt;ImageList.ImageSize&gt;16, 16&lt;/ImageList.ImageSize&gt;&lt;ImageList.ImageStream Reference="GridEXLayoutData.ImageList.ImageStream" /&gt;&lt;ImageList.TransparentColor&gt;Transparent&lt;/ImageList.TransparentColor&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>322, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC6
+        CwAAAk1TRnQBSQFMAgEBBAEAARQBBAEUAQQBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AGgABpwFR
+        AacsAAGMAaABUgGnDQABUgEqATgBNwFSAa4XAAGZATEBKgFRAf8NAAGaAvYB/wFZAW4LAAFSASoEWQE4
+        ASoBjQUAAaEBYQIBAT4BYAgAATEBWAFSASoBUgEqDAABUgHDAnkCHAEbAZoBNwGGBwABoQHlASoIWQFR
+        AgABJAElA0wCJQEfA8cBoQMAAaACegJYAjEBKwEqAf8HAAGhBMMB6wFtAXMBGgH2Af8BWQFuBAABWQEx
+        AaABKwLlAXoFWQFLAgABJQVMAiUErQGmAgABWAF6AlgBMQF5AeUCegExBwABUgHDAXkBmQHDAXMBfQFV
+        AXgCeQH2Af8BjAIAAa4BWQFSAaABMQXlA3oBSwIAAR8BTAJTAU0BTAIlAbMBpgKtAaYDAAExAVgBMQEq
+        AVgBeQJYATEB8gYAAVkDwwF5AVYBfQGXAU8BGwHDAfYBSwMAAVIBWQLDATEDoAPlAXoBwwFLAgABxAFM
+        AVMBTAFoAUUBTAEfAaYB3AGmAa0BoQMAAXkBegExAioBmQExAQMBLQEuAQIB/wMAAaEBwwGZBMMB5AF9
+        AZcBTwEbATgEAAF5AVIB9gHDATEFoAHlAXoBwwFSAwABxAEfA1MBAQHNAboB8AKmBAABWAFSASsBUgEx
+        Ae0BNAEuAS0BVQICAfACAAFuAcMBoAN5AZoBwwJ9AVYBTwGhAwABpwHDAXkBWAFSATEBmgWgAsMBUgQA
+        AVIDegFTASoCegFTBQABoAJ6AVgBdAHvAS4EVgICAQgBAAExBKABwwGZAXkBVwJ9AVYBEgMAAVIBwwGa
+        AqABUgLDAqABwwGaAsMBUgMAAaEBdQN6AVMBKgN6AYwEAAFXAVkBWAExAfAB8QGSAn0BVgFVAS0BLgFy
+        AQABWQN5A6ACwwF4AX0B8AEHAUUCAAF5AcMBmgHDAaABMQJSAVgBeQGZAZoC9gFSAwABRAEqApoBegFT
+        ASoDmgFuBAADVgFVAVYC7wFyAi4CLQECAQgBAAHlA6AEeQGaAcMBBwH/AU0BRgE+AQADUgHDBaABwwF6
+        ARoC/wFzAwABSgExAVICmgEqATEBKgJLAYwEAAF4AlYBVQFWAQcB7wFzBFYBAgIAATEBegagAXkBoAFL
+        AUYBTQFGAaIDAAGuAfYHwwFSBgABhgIxAyoEMQGGBAABVgJ9Ap4B/wHzAfIBngJ9AlYB/wMAAaEBjAFR
+        ATEBegKgAcMBhgEAAT8BogQAAa4BWAJ5AZkBGgP2AVIHAAFmAUQBSgFEAaEBogFKAUQBhgYAAcIBfQLC
+        AZ8D8wFWAVUCTwH/CAABoQGMAVINAAGnA/8BcxcAAf8BGwH0Af9IAAFCAU0BPgcAAT4DAAEoAwABQAMA
+        ASADAAEBAQABAQYAAQEWAAP/gQAC/wH4Bf8B8AH/AfgBHwL/AcEB/wHwAT8B+AEDAeABfwGBAf8B4AEH
+        AfABAAHAAQMBgAEfAcABAQHgAQABwAEBAYABHwHAAQABwAEAAcABAQHAAQ8BwAEBAcABAAHAAQEBwAED
+        AYABAwHAAQAB4AEDAcABAQGAAQMBgAEAAfABBwHAAQABgAEDAYABAAHgAQMBwAEAAYABAQGAAQAB4AED
+        AcABAAGAAQABgAEAAeABAwHAAQEBgAEAAeABBwHgAQMBwAEAAeABCQHgAQcB8AEHAeABAAH/AR8B/wEH
+        Av8B8An/Cw==
+</value>
+  </data>
+  <data name="jngBaseImponible_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDFactura"&gt;&lt;Caption&gt;Factura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="IDBaseImponible"&gt;&lt;Caption&gt;Base Imponible&lt;/Caption&gt;&lt;DataMember&gt;IDBaseImponible&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDBaseImponible&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;Column2 ID="IDTipoIva"&gt;&lt;Caption&gt;Tipo Iva&lt;/Caption&gt;&lt;DataMember&gt;IDTipoIva&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDTipoIva&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="DescTipoIva"&gt;&lt;Caption&gt;Desc. Tipo Iva&lt;/Caption&gt;&lt;DataMember&gt;DescTipoIva&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;DescTipoIva&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;162&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="BaseImponible"&gt;&lt;Caption&gt;Base Imponible&lt;/Caption&gt;&lt;DataMember&gt;BaseImponible&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;BaseImponible&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;110&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="ImpIva"&gt;&lt;Caption&gt;Imp. IVA&lt;/Caption&gt;&lt;DataMember&gt;ImpIva&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpIva&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="ImpRE"&gt;&lt;Caption&gt;Imp. RE&lt;/Caption&gt;&lt;DataMember&gt;ImpRE&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRE&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;110&lt;/Width&gt;&lt;/Column6&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>37</value>
+  </metadata>
+  <data name="jngVencimientos_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACNklEQVQ4T62QXUiTYRiGd9RJfYcpnQWB
+        RXSgqZjbnGQF25zWSNQOtNl0CulcSH+TVRqjf2e2tD4wVwbGwCFNRBTxZ9VBLpuuiMqSpmZHI4oC7efq
+        m5UGauugG56T97nfi/u5Zf9VQoqLWKOPJNsTEk4GWFfu59cqugTVbWKOhdhyA7a5YH+vNO1fiKud+DfI
+        Kn0XMdUzyDI6kKk7STgzSXkfKJ3TCLmB6JA1BUPI9N2Lxr19FHfMYR2E2CN+BOMrkhyhv4Ay2xFWt8wb
+        BPdHhKxG0uonuDQMa48HyG19i941vTJg04nxhaXcMY36ynM2145wWQKc6p9DfCx143yzPCBPn4vBYMBi
+        seBwONhTcxej5zPiKDgfQksAMm/NIJSukECr1WK32xkbG8Pn8+H1ejlcdwdN0zjuZz8B2+tGUalUxK3f
+        uBSSmpqK2+3G4/HQ3NyMKIpUVVWRoc1BYR9ipzPI12/fiaim5jSVlkMcNJctguRKBSaTCavVSkNDA+Fw
+        mKnQJNW2c5QUl1FYWIB/eJie3kFGglP4Xs5iKPkDEJFmt3o+YiRBT3cXbR33CX+CruAH1Lt2IF5rpK33
+        KS/ew713UFF9fukpEci+/HwuXKxnYAoeSUZvCHQ6HdmZGs62DnAzCNelYg1G0/KFbk1K5ECRAeeDWUQ/
+        ODpfkyZPIUt6NxYZqbA1UWo+ikKVvjwgInNZhXRjJWbbVXJy8khWyhfM2Rod6fINK3/+rcTkeBLik6MY
+        ZbIftsZvM/wl7TsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="jngVencimientos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="FechaVencimiento"&gt;&lt;Caption&gt;Fecha Vencimiento&lt;/Caption&gt;&lt;DataMember&gt;FechaVencimiento&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yy&lt;/FormatString&gt;&lt;Key&gt;FechaVencimiento&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;119&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="RecargoFinanciero"&gt;&lt;Caption&gt;Recargo Financiero&lt;/Caption&gt;&lt;DataMember&gt;RecargoFinanciero&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;RecargoFinanciero&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="ImpVencimiento"&gt;&lt;Caption&gt;Imp. Vencimiento&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimiento&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;ImpVencimiento&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDFormaPago"&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column3.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;Caption&gt;Forma Pago&lt;/Caption&gt;&lt;DataMember&gt;IDFormaPago&lt;/DataMember&gt;&lt;Key&gt;IDFormaPago&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="IDCobro"&gt;&lt;Caption&gt;Cobro&lt;/Caption&gt;&lt;DataMember&gt;IDCobro&lt;/DataMember&gt;&lt;Key&gt;IDCobro&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column4&gt;&lt;Column5 ID="IDFactura"&gt;&lt;Caption&gt;Factura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column5&gt;&lt;Column6 ID="FechaVencimientoFactura"&gt;&lt;Caption&gt;Vencimiento Inicial&lt;/Caption&gt;&lt;DataMember&gt;FechaVencimientoFactura&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yy&lt;/FormatString&gt;&lt;Key&gt;FechaVencimientoFactura&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;136&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDMoneda"&gt;&lt;Caption&gt;IDMoneda&lt;/Caption&gt;&lt;DataMember&gt;IDMoneda&lt;/DataMember&gt;&lt;Key&gt;IDMoneda&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;Column8 ID="CambioA"&gt;&lt;Caption&gt;CambioA&lt;/Caption&gt;&lt;DataMember&gt;CambioA&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.00######&lt;/FormatString&gt;&lt;Key&gt;CambioA&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column8&gt;&lt;Column9 ID="CambioB"&gt;&lt;Caption&gt;CambioB&lt;/Caption&gt;&lt;DataMember&gt;CambioB&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.00######&lt;/FormatString&gt;&lt;Key&gt;CambioB&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column9&gt;&lt;Column10 ID="IDClienteBanco"&gt;&lt;Caption&gt;IDClienteBanco&lt;/Caption&gt;&lt;DataMember&gt;IDClienteBanco&lt;/DataMember&gt;&lt;Key&gt;IDClienteBanco&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column10&gt;&lt;Column11 ID="IDBancoPropio"&gt;&lt;Caption&gt;IDBancoPropio&lt;/Caption&gt;&lt;DataMember&gt;IDBancoPropio&lt;/DataMember&gt;&lt;Key&gt;IDBancoPropio&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column11&gt;&lt;Column12 ID="Titulo"&gt;&lt;Caption&gt;Titulo&lt;/Caption&gt;&lt;DataMember&gt;Titulo&lt;/DataMember&gt;&lt;Key&gt;Titulo&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="CContable"&gt;&lt;Caption&gt;CContable&lt;/Caption&gt;&lt;DataMember&gt;CContable&lt;/DataMember&gt;&lt;Key&gt;CContable&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="NFactura"&gt;&lt;Caption&gt;NFactura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;Column15 ID="Contabilizado"&gt;&lt;Caption&gt;Contabilizado&lt;/Caption&gt;&lt;DataMember&gt;Contabilizado&lt;/DataMember&gt;&lt;Key&gt;Contabilizado&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;Column16 ID="Situacion"&gt;&lt;Caption&gt;Situacion&lt;/Caption&gt;&lt;DataMember&gt;Situacion&lt;/DataMember&gt;&lt;Key&gt;Situacion&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;Column17 ID="IDDireccion"&gt;&lt;Caption&gt;IDDireccion&lt;/Caption&gt;&lt;DataMember&gt;IDDireccion&lt;/DataMember&gt;&lt;Key&gt;IDDireccion&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column17&gt;&lt;Column18 ID="IDCliente"&gt;&lt;Caption&gt;IDCliente&lt;/Caption&gt;&lt;DataMember&gt;IDCliente&lt;/DataMember&gt;&lt;Key&gt;IDCliente&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column18&gt;&lt;Column19 ID="IDEntrega"&gt;&lt;Caption&gt;IDEntrega&lt;/Caption&gt;&lt;DataMember&gt;IDEntrega&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDEntrega&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column19&gt;&lt;Column20 ID="CobroCompensacion"&gt;&lt;Caption&gt;CobroCompensacion&lt;/Caption&gt;&lt;DataMember&gt;CobroCompensacion&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;CobroCompensacion&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;DefaultValue&gt;0&lt;/DefaultValue&gt;&lt;/Column20&gt;&lt;Column21 ID="ImpVencimientoA"&gt;&lt;Caption&gt;ImpVencimientoA&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoA&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ImpVencimientoA&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column21&gt;&lt;Column22 ID="ImpVencimientoB"&gt;&lt;Caption&gt;ImpVencimientoB&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoB&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ImpVencimientoB&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column22&gt;&lt;Column23 ID="IDProveedor"&gt;&lt;Caption&gt;Gestor Externo&lt;/Caption&gt;&lt;DataMember&gt;IDProveedor&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDProveedor&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="IDOperario"&gt;&lt;Caption&gt;Gestor Interno&lt;/Caption&gt;&lt;DataMember&gt;IDOperario&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDOperario&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column24&gt;&lt;Column25 ID="ComunicadoGestorCobro"&gt;&lt;Caption&gt;Comunicado Gestor&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;ComunicadoGestorCobro&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Key&gt;ComunicadoGestorCobro&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;125&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="FechaComunicacionGestorCobro"&gt;&lt;Caption&gt;Fecha Comunicación Gestor&lt;/Caption&gt;&lt;DataMember&gt;FechaComunicacionGestorCobro&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;FechaComunicacionGestorCobro&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;159&lt;/Width&gt;&lt;/Column26&gt;&lt;Column27 ID="IDCheque"&gt;&lt;Caption&gt;IDCheque&lt;/Caption&gt;&lt;DataMember&gt;IDCheque&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDCheque&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column27&gt;&lt;Column28 ID="IDTarjeta"&gt;&lt;Caption&gt;IDTarjeta&lt;/Caption&gt;&lt;DataMember&gt;IDTarjeta&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDTarjeta&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column28&gt;&lt;Column29 ID="ChequeTalon"&gt;&lt;Caption&gt;ChequeTalon&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;ChequeTalon&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ChequeTalon&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column29&gt;&lt;Column30 ID="Tarjeta"&gt;&lt;Caption&gt;Tarjeta&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Tarjeta&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Tarjeta&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column30&gt;&lt;Column31 ID="IDMandato"&gt;&lt;Caption&gt;IDMandato&lt;/Caption&gt;&lt;DataMember&gt;IDMandato&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDMandato&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column31&gt;&lt;Column32 ID="NMandato"&gt;&lt;Caption&gt;Nº Mandato&lt;/Caption&gt;&lt;DataMember&gt;NMandato&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;NMandato&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;Width&gt;130&lt;/Width&gt;&lt;/Column32&gt;&lt;/Columns&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="fmcImporteNegativo"&gt;&lt;ColIndex&gt;2&lt;/ColIndex&gt;&lt;ConditionOperator&gt;LessThan&lt;/ConditionOperator&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;Key&gt;fmcImporteNegativo&lt;/Key&gt;&lt;/Condition0&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="cbxTipoRetencion_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;Value&lt;/DisplayMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="fwiTipoAsiento_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ColumnHeaders&gt;False&lt;/ColumnHeaders&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="fwiCGestion_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="DescCentroGestion"&gt;&lt;Caption&gt;Centro Gestión&lt;/Caption&gt;&lt;DataMember&gt;DescCentroGestion&lt;/DataMember&gt;&lt;Key&gt;DescCentroGestion&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;165&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="Direccion"&gt;&lt;Caption&gt;Dirección&lt;/Caption&gt;&lt;DataMember&gt;Direccion&lt;/DataMember&gt;&lt;Key&gt;Direccion&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;DescCentroGestion&lt;/DisplayMember&gt;&lt;ValueMember&gt;IDCentroGestion&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="CmbCentroCoste_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDCentroCoste"&gt;&lt;Caption&gt;IDCentroCoste&lt;/Caption&gt;&lt;DataMember&gt;IDCentroCoste&lt;/DataMember&gt;&lt;Key&gt;IDCentroCoste&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="DescCentroCoste"&gt;&lt;Caption&gt;DescCentroCoste&lt;/Caption&gt;&lt;DataMember&gt;DescCentroCoste&lt;/DataMember&gt;&lt;Key&gt;DescCentroCoste&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;ControlStyle&gt;&lt;ButtonAppearance&gt;Flat&lt;/ButtonAppearance&gt;&lt;/ControlStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;IDCentroCoste&lt;/DisplayMember&gt;&lt;ValueMember&gt;IDCentroCoste&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="cboMotivoNoAsegurado_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDMotivo"&gt;&lt;Caption&gt;IDMotivo&lt;/Caption&gt;&lt;DataMember&gt;IDMotivo&lt;/DataMember&gt;&lt;Key&gt;IDMotivo&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="DescMotivo"&gt;&lt;Caption&gt;Desc. Motivo&lt;/Caption&gt;&lt;DataMember&gt;DescMotivo&lt;/DataMember&gt;&lt;Key&gt;DescMotivo&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;ControlStyle&gt;&lt;ButtonAppearance&gt;Flat&lt;/ButtonAppearance&gt;&lt;/ControlStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ColumnHeaders&gt;False&lt;/ColumnHeaders&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;DescMotivo&lt;/DisplayMember&gt;&lt;ValueMember&gt;IDMotivo&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="CmbTipoOperIntra_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;ControlStyle&gt;&lt;ButtonAppearance&gt;Flat&lt;/ButtonAppearance&gt;&lt;/ControlStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;Text&lt;/DisplayMember&gt;&lt;ValueMember&gt;Value&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="cbxClaveOperacion_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="Value"&gt;&lt;Caption&gt;Value&lt;/Caption&gt;&lt;DataMember&gt;Value&lt;/DataMember&gt;&lt;Key&gt;Value&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="Text"&gt;&lt;Caption&gt;Clave Opreación&lt;/Caption&gt;&lt;DataMember&gt;Text&lt;/DataMember&gt;&lt;Key&gt;Text&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;ControlStyle&gt;&lt;ButtonAppearance&gt;Flat&lt;/ButtonAppearance&gt;&lt;/ControlStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;Text&lt;/DisplayMember&gt;&lt;ValueMember&gt;Value&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="jngConceptos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IdFactura"&gt;&lt;Caption&gt;IdFactura&lt;/Caption&gt;&lt;DataMember&gt;IdFactura&lt;/DataMember&gt;&lt;Key&gt;IdFactura&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="IdConcepto"&gt;&lt;Caption&gt;Concepto&lt;/Caption&gt;&lt;DataMember&gt;IdConcepto&lt;/DataMember&gt;&lt;Key&gt;IdConcepto&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;Column2 ID="DescConcepto"&gt;&lt;Caption&gt;Desc. Concepto&lt;/Caption&gt;&lt;DataMember&gt;DescConcepto&lt;/DataMember&gt;&lt;Key&gt;DescConcepto&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;333&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="Importe"&gt;&lt;Caption&gt;Importe&lt;/Caption&gt;&lt;DataMember&gt;Importe&lt;/DataMember&gt;&lt;EditTarget&gt;Text&lt;/EditTarget&gt;&lt;FormatString&gt;#,0.0#######&lt;/FormatString&gt;&lt;Key&gt;Importe&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;0&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="PnlRiesgo.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        9Kye5TfLYvkfLp53dqfPE1QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PnlRiesgo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        9Kye5TfLYvkfLp53dqfPE1QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="ToolTipMensajes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>432, 17</value>
+  </metadata>
+  <data name="pnlEntregaCuenta.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        9Kye5TfLYvkfLp53dqfPE1QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pnlEntregaCuenta.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        9Kye5TfLYvkfLp53dqfPE1QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="FwiTipoFactura_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;Value&lt;/DisplayMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
+  </metadata>
+  <data name="ErrorProvider1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAEBAAAAEACABoBQAAhgAAABAQAAABACAAaAQAAO4FAAAYGAAAAQAIAMgGAABWCgAAGBgAAAEA
+        IACICQAAHhEAACAgAAABAAgAqAgAAKYaAAAgIAAAAQAgAKgQAABOIwAAMDAAAAEACACoDgAA9jMAADAw
+        AAABACAAqCUAAJ5CAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wACxtoAQHRyAILT6AA/NjUAdJqsABCDqwBA6/YAAP//AEmz1gC46PIAKxQQADyStwAerM8AZ+X6AFWF
+        oQAjyeUAHjdAABfp8wBao8AAacPdABqIjgBG3N0AEp24AJ3m9gA40vYAM6DJAADk7gAq9/cAJoyqAHSp
+        vQA4JyYAVd7tADGw0wAr5fIAbtvsACaTuwARBgIAU5i1AITh8QAL8vgAHfv/AAyPtQBAn8IARc/xADLj
+        /QCS4fIAIM7aAGHb7AAakrkAR+j/ABuAqAAh7vYAAPX5AHvc7ABY5PYApuv3AHfU5wAhEhAAMubrADia
+        vwAm8v4AGfH6AG/H4wAvlbwAROP0ADir0AAnrc8ARTw4AAn//wBwnrMAbOLxABKKsQCH2esAsen2AC+b
+        xQAkOj4ANZO5AAbu9gCi5fIAbpqqAFDg8AAUkrkAid7wAAj1/AA9mL0AVuPxAHba7ABa3O0AFuz3AA+S
+        uAAA+/wAadvsACKSugA2ncEApefzAAmOswALkrcAlOPwAH7b7QANjrIAQej1ADGiygCH3+8ADZO2ADOU
+        ugAA/P4AlOHxAGza7ABV3+8AC5G2ADGhyQAA//4AAf//AAD0+QA4msAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZOQSVeMlNbYm8rZTQAAABWOShIVwg/HXIJCQkJ
+        BwAAamBkXSEuEkVGXHEJCWEAAEcVVCRZQmkYVXNrCRwQAAAATGxYMVI8F1pPNglJAAAAAAAKaG04FgM+
+        EykCUQAAAAAALEo3M00FKiM1HgAAAAAAAABDYxo7IDBmDgAAAAAAAAAAFAQtJgwRbg0AAAAAAAAAAABw
+        GSJED2cAAAAAAAAAAAAAH0BQLzonAAAAAAAAAAAAAAAbC0tfAAAAAAAAAAAAAAAAAD10AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAIADAACAAQAAgAEAAIABAADAAwAA4AMAAOAHAADwDwAA8A8AAPgf
+        AAD4HwAA/D8AAP5/AAD//wAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        pgmRERgAAAAAAAAAAAAAAAAAAAAAAAAARYZwNQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A////AMAAAwCAAAEAgAABAIAAAQCAAAEAwAADAOAA
+        AwDgAAcA8AAPAPAADwD4AB8A/AAfAPwAPwD+AD8A/gB/AP8A/wD/AP8A/4H/AP/B/wD/w/8A////AP//
+        /wAoAAAAGAAAADAAAAABACAAAAAAAGAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABz
+        oQsAc6mdE4q37RWMuvQTjLr0D4y49A2MuPQLjLj0Coy49AeNuPQGjLfzBIq17wGLte8AirXvAIu17wCK
+        tO8AiLDtAIWw6wCFr+sAeafbAF6TfwBSrQMAAAAAAAAAAAB0qZp6y+L/nuXz/4vi8v984vD/buLy/17j
+        8v9R5fP/Quj0/zTs9/8k9Pz/Ffj//wj5/f8A////AP///wD///8A////AP///wD///8A////AMzd/wBd
+        k4QAAAAAAAAAABGJt+Wx6fX/j9zt/4Lb7f902+z/Z9vt/1nc7f9M3u7/QOLv/xzl//8Mssz/FLzL/wH4
+        //8A9vn/APz8/wD+/v8A////AP///wD///8A////AP///wCCrO4AAAAAAAAAAAB+sc2o5fP/k93t/4Pb
+        7f912uz/advs/1vc7f9O3e3/QuTx/wGgy/81GRT/SSwp/xPA0v8B9vv/APj7/wD+//8A////AP///wD/
+        //8A////AP///wCIsfMAAAAAAAAAAACFq15KsdH+nuLw/4bb7f942uz/a9vs/17b7f9R3e3/R+Ty/wCc
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLwvAHOnsgBw
+        p+0AcKjwAHKn8AByp/AAcKfwAG+l8ABvpvAAb6TwAG+k8ABupfAAbqLwAG2i7wBqoOoAaaDqAGef6gBl
+        neoAZZzqAGSa6gBjm+oAYZjmAGCW5ABfleQAXpTkAF2V1ABglpAAbqUUAAAAAAAAAAAAAAAAAIC4LQB4
+        rPJhvtr/kOLx/4ni8f994vH/c+Lx/2ri8f9f4/L/VuTy/0rn8/9B5/T/Nuv1/y3t9v8i8vf/F/L4/w33
+        +/8C+/7/AP///wD///8A////AP///wD///8A////AP///wD///8A/P3/ALbP/wBhlt0AZZ8YAAAAAAAA
+        AAAAdKmuZ77a/6Tk8/+Q3e7/hdvu/3nb7P9v2+z/Z9vu/1zc7f9S3e3/SN7u/z/g7/824/D/Kufz/xTs
+        //8M8v//DfH5/wPx+P8A9/r/APr8/wD///8A////AP///wD///8A////AP///wD///8A////ALrS/wBh
+        lp4AAAAAAAAAAAB2rOCY3O7/nN/v/4/c7f+E2+3/etvs/3Db7P9n2+3/Xdzt/1Pd7f9J3u7/QOHv/zDi
+        9P8A3v//F5mr/x2erf8A8f//A/P7/wD1+f8A+fz/AP3//wD///8A////AP///wD///8A////AP///wD/
+        //8A////AGCW8AAAAAAAAAAAAHetzHvM5P+g4PD/kNzt/4bb7f982+z/cdrs/2jb7P9e2+3/Vdzt/0ve
+        7v9E4e7/Dtj//xhgcv83JCD/RTIv/zR2fv8A9f//APP5/wD4+/8A/f3/AP7+/wD///8A////AP///wD/
+        //8A////AP///wD///8AY5j4AAAAAAAAAAAAe7BzIJjD/6rm9P+R3O3/h9vt/33b7P9z2uz/atvs/2Db
+        7f9X3O3/Td3t/0fi7v8GzPz/HC40/y0pJ/87NTX/QklL/wDv//8C8vj/APX6/wD5/P8A/v//AP7+/wD/
+        //8A////AP///wD///8A////ANjm/wBglbwAAAAAAAAAAACgxQcAe7Lbb8nh/5vf7/+J2+3/f9vs/3Xa
+        7P9s2uz/Y9vs/1nc7f9Q3e3/SeDv/x3N8P8FgKP/KBUQ/zYgHP8XmLb/A+j//wXw9v8A8/j/APf6/wD8
+        /P8A//7/AP///wD///8A////AP///wD///8AeKj9AHGnOQAAAAAAAAAAAAAAAACT0U0Fir7+n+Py/47b
+        7f+C2+z/eNrs/2/a7P9m2+z/XNvt/1Pc7f9J3e3/Q+Pw/xPG8P8AsOf/ALnt/wba//8U7PX/C+/2/wPx
+        9/8A9Pn/APj7/wD7/v8A//7/AP///wD///8A////AL3U/wBsqKIAAAAAAAAAAAAAAAAAAAAAAAAAAACL
+        w7ZJtdb/mOHw/4Xb7f972uz/ctrs/2na7P9g2+z/Vtzt/03d7f9G3+7/P+Pv/xHy//8K9f//Iev0/xvp
+        8/8Q6/X/CO72/wLx9/8A9fn/APj7/wD8/P8A/v7/AP///wD+/v8Aa6HxAHu0GgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAJfVJwCFvPiN3O3/i9zu/3/a7P912uz/bNrs/2Tb7P9a2+z/Utzt/03d7f8X6f//GqGu/yyJ
+        jv8C+f//Iefy/xfp8/8P7PX/CO72/wLx9/8A9Pn/APf6/wD5/f8A////AKLD/wB0r3gAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAJHIiiilzv+Z4fH/g9zs/3na7P9w2uz/aNrs/1/b7P9W3O3/Ut/u/wDo
+        //9AOTj/TzYz/wDn+/8j6PX/Hefy/xbp8/8Q7PX/Ce72/wTw9/8A8/j/APn7/wDk7v8AaqPbAH6mBwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAktMOAIe+5XDO5f+M3u3/ftrs/3Xa7P9s2uz/ZNvs/17b
+        7P854Pn/CavJ/z4vLf9HOjn/Haa1/xjt//8o5fH/Hufy/xfp8/8S6/X/DO31/wjv9v8E/P//AIi1/gB+
+        vE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn8pdDJnF/pji8f+E2uz/etrs/3Ha
+        7P9p2uz/Z9zs/xve//8dZXP/ODEw/z86Of8zbHP/B+///zDj8P8m5fH/IOfy/xro8/8V6vT/EvH4/wnE
+        3P8AdbC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wEAk7zFUb/d/5Df
+        7/9/2uz/dtrs/27a7P9v3ez/ANf//yooKf8zMjL/OTk5/0U4N/8A5///N+Lw/y7j8P8o5PH/I+by/x7o
+        9P8b7/b/AHmt+QCIwikAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACp
+        4TMAkMX8jt7v/4jb7P982uz/dtrs/2Hb8P8Art3/KRoV/y0tLf81NTX/QjMw/w221P8t5Pf/OOHv/zHi
+        8P8s5fH/Kuz2/w+rzP8AfLOPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACZ0pozsNX/l+Dv/4Ta7P992+z/UdXx/wKEqP8jGBT/KSkp/zExMf87Mi//Homd/yHi
+        //9B3+//OeDv/zbj8f8t3ez/AHSq6QCAzRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAKniFQCPxe181Oj/jd7t/4Xb7P9M0fH/A3KR/x4UEf8lJSX/LCws/zcv
+        Lf8jcYP/HeH//0ve7v9C4O7/ROn1/wyUvv4AgrdlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ7VbhWgzv+d4vD/jN3s/1/T7v8AfqT/Gw0K/yEh
+        If8oKCj/Mygl/xaEoP8r3P7/U97t/07g8P80x97/AHitzABdxgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkd4EAJDF0mHF4v+X3vD/jN3u/wCq
+        4v8QIif/Hg8K/ycYFf8qLC3/AL/0/1Xb8f9c3e7/WuPx/wSFt/0Ajcg8AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqONCAJbJ/p7g
+        8P+X3+//atDq/wKz6f8Al8f/AJXC/wC98v9G1PL/bd3s/2jh7/8wstL/AIO8pQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAmtOqQ7XY/6Li8P+W3u7/leDv/3/b7/9z2e//f93u/3jc7P9y3O3/aNrs/wB+svMAiMgcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACh5h8AjsP0ktrs/5zf7v+T3O3/jtvt/4nb7f+D2+z/fdrs/4Lh8P8in8f/AIm/ewAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACW0X4io87/sOXy/5vd7/+W3O3/kNzt/4vb7f+K3u//aczl/wB8
+        s90AgcUJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKXoCQCHv917zeT/q+Lv/57e7v+Z3e7/ldzt/5zk
+        8v8Njr/+AJPOUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ7dUQiTxP666PT/rOLx/6Xf
+        7/+p5fL/Wbva/wCGwLsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJHKrSug
+        yv+h2+3/q+Ly/1292/8AgLbyAJPPKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAoMcHAIS5hACAtd4AfrTvAIC0tgCMwi8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////+AAAAfAAAADgAAAAYAA
+        AAGAAAABgAAAAcAAAAPgAAAD4AAAB/AAAAfwAAAP+AAAH/gAAB/8AAA//gAAP/4AAH//AAB//wAA//+A
+        Af//wAH//8AD///gA///4Af///AH///wD///+B////w/////////////KAAAADAAAABgAAAAAQAIAAAA
+        AACACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAKriADhjaQB+2uwARDMwAFuctQAA/v4ABHytADrg
+        7wC65vIAFyQoADaw1QAxgKgABNblAFzB3gAaoa4AQUZGACgVEAAdapgAAJO/AFvb7AAX3fYAd6i8ADiZ
+        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
+        AAAAHwAA/AAAAAAfAAD8AAAAAD8AAP4AAAAAfwAA/gAAAAB/AAD/AAAAAP8AAP+AAAAA/wAA/4AAAAH/
+        AAD/wAAAAf8AAP/AAAAD/wAA/+AAAAf/AAD/8AAAB/8AAP/wAAAP/wAA//gAAA//AAD/+AAAH/8AAP/8
+        AAAf/wAA//wAAD//AAD//gAAf/8AAP//AAB//wAA//8AAP//AAD//4AA//8AAP//gAH//wAA///AAf//
+        AAD//8AD//8AAP//4Af//wAA///wB///AAD///AP//8AAP///B///wAA////////AAD///////8AAP//
+        /////wAA////////AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9
+        tSsAdammAHOp6gB1qPgAdKj4AHSo+AB1qfgAdan4AHOo+ABzqPgAdKj4AHKo+AByp/gAcqf4AHKm+ABy
+        p/gAcaX4AHGl+ABvpfgAbqT3AG6j8QBto/EAbaPxAGui8QBsovEAaqHxAGqf8QBpoPEAaJ3xAGib8QBm
+        nu8AZZrpAGSa6QBkmekAY5fpAGKY6QBhlt0AYpe6AGaYWwBXtwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAIW+VQB3q/Ugocn/Vsji/2TU6v9e1On/Wtbp/1XV6/9Q1+r/TNjq/0fY6v9B2ez/Pdvt/zjc
+        7f8z3u7/Lt/v/yri8P8k5PH/H+bz/xro8v8W6vT/D+rz/wzs9P8G7vX/AvL4/wD1+f8A+Pr/APv9/wD+
+        /v8A/f7/AP7+/wD9/v8A+fr/APn6/wD5+v8A+Pr/APn7/wD1+P8A1eP/AIuz/wBjl8AAbqwSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAf7QkAHet9FC/3P+j4/D/ld7u/4zc7v+E3O3/f9zu/3fc7P9w3Oz/atzu/2Pd
+        7f9c3e3/Vt7t/0/f7/9H4O7/QODv/zrh8f8z4/D/LObx/yXm8v8f6PP/GOz0/xLu9/8K8fb/A/P5/wD2
+        +f8A+fv/APz+/wD//v8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wCt
+        yf8AY5e8AFi2AwAAAAAAAAAAAAAAAAAAAAAAd6uVIp3G/6vl8v+Z3e//kdzt/4rb7f+D2+3/fNvt/3Xb
+        7P9u2+z/aNvt/2Hb7f9b3O3/VN3t/03e7v9H3+7/QODv/znh7/804/D/LuTx/ybn8v8Y6vf/E+34/xHu
+        9v8L7/b/A/H4/wD1+f8A+Pv/APv8/wD//v8A////AP///wD///8A////AP///wD///8A////AP///wD/
+        //8A////AP///wD///8Ah6//AGOYWwAAAAAAAAAAAAAAAAAAAAAAd6vYXMHe/6Xg7/+Y3e7/kdzt/4rc
+        7f+D2+3/fNvt/3bb7P9v2+z/advt/2Lb7f9b3O3/Vd3t/07d7f9H3u7/QN/v/zrh7/814/D/HuP5/wDm
+        //8JyeD/CtHj/wD1//8H8vv/BvH3/wD0+f8A9/r/APr8/wD9/f8A////AP///wD///8A////AP///wD/
+        //8A////AP///wD///8A////AP///wD///8A1+T/AGGWuwAAAAAAAAAAAAAAAAAAAAAAea3mXcTg/6bg
+        7/+Z3e7/ktzt/4vc7f+E2+3/fdvt/3bb7P9v2+z/advs/2Pb7f9c3O3/Vdzt/0/d7f9I3u7/Qd/u/zzi
+        7/8l3/b/AMjy/yxFSP8+Ly7/STk3/z5maf8D6Pr/BPL7/wDz+P8A9vr/APn7/wD8/f8A/v7/AP///wD/
+        //8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/P3/AGCW7AAAAAAAAAAAAAAAAAAA
+        AAAAea/EN6/U/6ji8P+a3e7/k9zt/4zc7f+F2+3/ftvs/3fa7P9w2+z/a9vs/2Tb7f9d2+3/V9zt/1Dd
+        7f9J3u7/Q9/u/z/h7/8H1P//HExY/zAqKP82Njb/Pj4+/0lBQP82fob/APP//wLy+P8A9fn/APj7/wD7
+        /P8A/f7/AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+fz/AGGW5QAA
+        AAAAAAAAAAAAAAAAAAAAfq93AIy8/53g7/+d3u7/lNzt/43c7f+G2+3/f9vt/3ja7P9x2uz/bNvs/2Xb
+        7P9e2+3/WNzt/1Hd7f9L3u7/RN/u/z/h7/8Axvz/IhoX/ykpKP8xMTH/OTk5/0NCQf9JTk7/AO7//wXy
+        9/8A9Pn/APb6/wD5/P8A/P3/AP7+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+        //8Az9//AGSZtwAAAAAAAAAAAAAAAAAAAAAAfbMPAH6z5jy12P+l4PD/ldzt/47c7f+H2+3/gNvs/3ra
+        7P9z2uz/bdrs/2bb7P9g2+3/Wdzt/1Pd7f9M3e7/Rt7u/0Lh7v8Awvf/GiUp/yQjIv8tLS3/NTU1/z87
+        O/88W2D/AOn//wfx9v8B8vj/APX5/wD4+/8A+vz/AP39/wD+/v8A////AP///wD///8A////AP///wD/
+        //8A////AP///wD///8Afqv+AGylTAAAAAAAAAAAAAAAAAAAAAAAAAAAAIfDYQCHuv6F2Ov/md7u/5Dc
+        7f+J2+3/gtvs/3va7P902uz/btrs/2jb7P9i2+z/W9vt/1Xc7f9O3e3/SN7u/0Ph7v8ayu7/B3ye/yIV
+        Ef8pJSP/Miwr/zwvLf8Rqsr/Bub+/wrw9v8D8ff/APP5/wD2+v8A+fv/APv9/wD9/v8A/v7/AP///wD/
+        //8A////AP///wD///8A////AP///wDD2P8Aa6O5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI6IAgCB
+        t8kep8//ouDw/5Lc7f+K2+3/hNvt/33a7P922uz/cNrs/2rb7P9j2+z/Xdvt/1fc7f9Q3e3/St3t/0Xe
+        7v894O//Cr/t/wWOt/8XVmf/G19y/wir1f8F2///E+31/wzt9v8H7/b/AfL4/wD0+f8A9/r/APn7/wD7
+        /f8A//7/AP7+/wD///8A////AP///wD///8A////AP///wBxo/oAd7AtAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACPyTsAhbn8aM3m/5fe7v+M2+3/hdvt/3/b7P942uz/cdrs/2za7P9m2+z/X9vs/1nc
+        7f9S3O3/TN3t/0be7v9B4O7/O+Lx/yLT7v8PyvL/D8/2/xfd9v8d6vP/F+r0/xDs9f8K7vb/BfD3/wDy
+        +P8A9fn/APf6/wD5/P8A+/3/AP3+/wD+/v8A////AP///wD///8A////AKzK/wBwp5QAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAisClCJvI/5rg7/+P2+3/h9vt/4Hb7P962uz/dNrs/27a
+        7P9o2uz/Ydvs/1vb7f9V3O3/T93t/0ne7f9C3+7/Pd/v/zTj8f8U8P7/EPL//yHq9f8g5/L/Genz/xTr
+        9P8O7PX/Ce/2/wTw9/8A8/j/APX5/wD3+v8A+fv/APv8/wD+/f8A/v7/AP///wD///8A8fb/AGqf7QBx
+        qhQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmdccAIS58knB3/+X3u//i9vt/4Pb
+        7P992uz/dtrs/3Da7P9q2uz/ZNvs/17b7P9Y3O3/Utzt/0vd7f9F3u7/P9/v/wHv//8hnKX/KpKa/wDz
+        //8g5/P/Hefy/xjp8/8T6/T/De31/wjv9v8E8Pf/APL4/wD1+f8A9vr/APj7/wD6/P8A/P3/AP7//wD/
+        //8Albv+AHOqbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI7DfACT
+        wv+J3O3/jtzt/4bb7f9/2uz/edrs/3La7P9t2uz/Z9rs/2Hb7P9b2+z/Vdzt/0/c7f9L3e3/KOT5/xC0
+        yP9JODb/Tz8+/yKnsP8R7/7/Iuby/xzo8/8X6fP/Euv1/w3t9f8J7/b/BPD3/wHy+P8A9Pn/APb6/wD3
+        +/8A+fv/AP3+/wDa6P8Aa6LWAHGqBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAJ/fCQCGvN4us9j/lt7v/4jb7f+C2uz/e9rs/3Xa7P9v2uz/atrs/2Tb7P9e2+z/WNvt/1Lc
+        7f9Q3u3/Cuf//yxmbf9CPj7/R0RE/z5obP8A9f//KOXx/yDm8v8c6PP/F+nz/xLr9f8O7fX/Cu/2/wbw
+        9/8C8fj/APP4/wD1+f8A9/r/AP3//wCCsP4AfLJKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACZ0lUAjsH+c9Pp/47c7v+F2+z/ftrs/3ja7P9y2uz/bNrs/2fa
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnt8JAIzA3jSx1v+v4/D/o97u/57e
+        7v+a3e7/ltzt/5Pc7f+Q3O3/jtzt/4Hb7v8Ai7z/AIXAYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJzIVQCN
+        wP6J0+r/q+Hw/6Tf7v+g3u7/nN3u/5nd7v+W3O3/nODv/y6v1P8Af7bLAI6IAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD/AQCQu78Zoc3/uOXy/6vh8P+m3+//o97u/5/e7v+h3+//edTq/wCDuP0Aj8c9AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACb0C4Aib33Ubvc/7zm8v+y4vD/ruLw/67j8f+P2+3/BpTD/wCH
+        vaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl9BfAIe8+SSjzv9ux+P/dczm/0W3
+        2f8Ajb//AIG2xQCOzQ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIvDNgCF
+        ua0AgrbrAIK2+QCBtdQAgrZ5AIamCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP///////wAA////////
+        AAD4AAAAAB8AAOAAAAAADwAA4AAAAAAHAADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAA
+        AAAAAwAA4AAAAAAHAADgAAAAAAcAAPAAAAAADwAA+AAAAAAPAAD4AAAAAB8AAPwAAAAAHwAA/AAAAAA/
+        AAD+AAAAAH8AAP4AAAAAfwAA/wAAAAD/AAD/gAAAAP8AAP+AAAAB/wAA/8AAAAH/AAD/wAAAA/8AAP/g
+        AAAH/wAA//AAAAf/AAD/8AAAD/8AAP/4AAAP/wAA//gAAB//AAD//AAAH/8AAP/8AAA//wAA//4AAH//
+        AAD//wAAf/8AAP//AAD//wAA//+AAP//AAD//4AB//8AAP//wAH//wAA///AA///AAD//+AH//8AAP//
+        8Af//wAA///wD///AAD///wf//8AAP///////wAA////////AAD///////8AAP///////wAA
+</value>
+  </data>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="NotifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>738, 17</value>
+  </metadata>
+  <data name="NotifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAEBAAAAEACABoBQAAhgAAABAQAAABACAAaAQAAO4FAAAYGAAAAQAIAMgGAABWCgAAGBgAAAEA
+        IACICQAAHhEAACAgAAABAAgAqAgAAKYaAAAgIAAAAQAgAKgQAABOIwAAMDAAAAEACACoDgAA9jMAADAw
+        AAABACAAqCUAAJ5CAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wCseHgA4ri4ALOfnwD/2NgA06WlAKWNjQD4xcUA9urqAMOSkgDDr68An4GBAOjHxwCzk5MA//PzAMyb
+        mwCxhoYAwaKiAP/OzgDdq6sA/+HhANmzswC4jIwAupmZAPXMzADRrKwA4r+/AP/o6ADKp6cApn19AK9+
+        fgCtjY0Au5GRAMiWlgC6pKQA7srKAP/6+gD/7u4As5mZAPzJyQD0wcEArYKCAMijowD62toA9MjIAP/d
+        3QD/0tIAs4+PAOK0tADlvLwAo4ODAMqengD/6+sA/+TkAPvPzwCzlpYAz6SkANWrqwCqi4sAtpubANy1
+        tQDQp6cAxpiYAMqZmQD+0NAA+cnJALqPjwD/+PgA/9/fAP/b2wD/1tYA3LOzAP7KygC4mpoAt4uLAPrK
+        ygD5xsYA2rS0AP/7+wD/9PQA/+DgAP/c3AD/2toAs5CQAP/Z2QD/19cAs5SUALOVlQD/0dEAs56eAM+l
+        pQCugoIAvJGRAP/Q0AD9ysoA9szMAMuengAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOwwAAAAAAAAAAAAAAAAAAABAHgAAAAAAAAAAAAAAPCERFFsA
+        AAAAAAAAAAAANC1WWShgSwAAAAAAAAAAK0VSOFcwCBkzAAAAAAAqBz1PFVJHL19CVAAAAAAKBgAaAQ8E
+        J1gTTCAAAABKKTIXH0MJRDUuQj8AAAAjMQVVU1UkAmEDOhIAAAAAOTZTOA4wTSxcAAAAAAAAABtQUUZH
+        L0k3IgAAAAAAAAAWASZaJ1gTQV0AAAAAAAAACw0lUBxSXhAAAAAAAAAAAAAAHU5IPhgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA/88AAP/nAAD/BwAA/gMAAPwBAADwAQAA5AEAAMADAACABwAAgD8AAIA/
+        AACAPwAAgH8AAOD/AAD//wAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqG9vipdlZZqjbGwUAAAAAAAA
+        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
+        hKTYqKj//9fX///Y2P//09P//9HR///Nzf/6xsb/9cPD//nY2P/Ura3/omlptwAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ZubaN6xsf//4OD//9ra/7OXl/+zlZX/s5OT/7KR
+        kf+yjo7/r4uL//PAwP/50tL/vpGR/6dtbU0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALJ6
+        eiShb28K0p2dzf/h4f//39///93d///b2///2Nj//9XV///R0f/+zs7//cvL//fExP/yv7//5cPD/6Bq
+        ap4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7f39Kq3R0zqJzc958AAAC3q2t7P/9/f//7+///+Hh/7Oc
+        nP+zmpr/s5iY/7OVlf+zkpL/s5GR//rJyf/0wsL/887O/6BsbL8AAAAAAAAAAAAAAAAAAAAAAAAAAMOI
+        iGi9ior91qen/6x0dIsAAAAA5a2t1f/7+///9/f//+7u///i4v//3t7//9vb///X1///09P//8/P//7K
+        yv/4xMT/7MTE/6Zxca4AAAAAAAAAAAAAAAAAAAAAzYuLH7yIiPb/zc3/1Kio/653d18AAAAA7rW1hPLY
+        2P////////X1/7Onp/+zn5//s5ub/7OYmP+zlpb/s5KS///Nzf/9ysr/0aOj/6x7e2MAAAAAAAAAAAAA
+        AAAAAAAAwYqKe+Oxsf//1dX/3rGx/6VubteqdHS4om1ts76Kiv7y39/////////29v//8PD//+fn///d
+        3f//1tb//9TU///S0v/ntbX/s4KCx95paQUAAAAAAAAAAAAAAADXnJxMwo+P7/vNzf//0dH//+Li//vZ
+        2f/31dX/68TE/8+hof+kbW3/u5KS//bf3///8PD///Hx///t7f/+2dn/78DA/9Ohof7GkZGw4JubEQAA
+        AAAAAAAAAAAAANOcnC3NmZn3/9fX///X1///09P//9PT///Q0P//zs7//c/P//3Z2f/84OD/zZyc/59q
+        av7YoaHS4qqq3d2mptzYn5/C1Z6ejtyhoTcAAAAAAAAAAAAAAAAAAAAAAAAAAMmVla720dH//93d///Z
+        2f+zl5f/s5aW/7OTk/+zkZH/s4+P/6+Li//2x8f//OPj/82cnP+ebGyPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANOiovf/5+f//9/f///d3f//29v//9jY///V1f//0tL//87O//7M
+        zP/4xcX/9MfH//nZ2f+hdnbr/wAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN6x
+        sf///////+rq///h4f+znJz/s5qa/7OYmP+zlpb/s5OT/7KQkP/7ycn/9sLC//na2v+zf3/+mXZ2DAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN6urvz///////b2///q6v//4uL//97e///b
+        2///19f//9PT///Pz//+y8v/+MXF//vT0/+xenrwjJOTAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANmjo7/78PD///v7///09P+zpKT/s5+f/7Obm/+zmJj/s5aW/7OTk//+zs7//cvL/+O0
+        tP+4f3+hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOy1tTPjsbH3/fX1///8
+        /P//9PT//+3t///k5P//3Nz//9fX///T0///0tL/9MHB/7qFhenQkZEcAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3vb1B36ur4+zNzf/66+v///b2///z8///7u7//9/f//jL
+        y//cqqr/vYuL0s2WlioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA3aysC9mnp2fZoKC01qKi5NmmpvnVoaH5zJeX4MSSkqvFkJBYzIaGBAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////AP//PwD//x8A//8PAP/8DwD/4AcA/8ADAP+AAwD/gAEA/IABAPCAAQDwgAEA4AADAOAA
+        BwDAAB8AgAH/AIAB/wCAAf8AgAH/AIAB/wDAA/8A4Af/APAP/wD///8AKAAAACAAAABAAAAAAQAIAAAA
+        AACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AoG9vAOaxsQCum5sA/9bWAMSysgC0goIAzJmZAPfC
+        wgD/6uoA1ry8ANimpgCnjY0AwI2NAMKlpQCme3sAmmRkAPbNzQDru7sA+uDgAP/09ADXs7MAs5KSALOk
+        pADryckApIODAL6VlQDOoaEAm3Z2AOG+vgC6qqoAv56eAP/KygDQqakAr4iIAKZ0dADeq6sA99raALmJ
+        iQDduLgAyZOTAO3DwwD/0NAArICAAJ5paQDzx8cAz7OzAMitrQD/5OQA/9zcAPjU1ADyvr4A6ba2ALmb
+        mwD97+8ArXp6AKOIiACyjY0A3rOzAP/6+gCzl5cAs5+fALqkpAD46OgA+sfHAOW5uQDHnJwAuI6OAKqE
+        hADgr68A1qKiALqSkgCnkZEAmWhoAOS1tQDKtLQA1KqqAP/g4ADyw8MAs5ubAPvMzACrj48At6GhAL6s
+        rAD75eUApHFxAPbR0QDtvr4AwKioANWvrwCdbGwA+N3dAPTKygD/9/cA/+fnAP/Z2QD/09MA/83NAL2K
+        igDSoKAA07S0AKl9fQD729sA+c/PANuoqADpw8MA77u7AOi5uQDcr68A//HxAP/t7QCreHgA+djYAPjJ
+        yQC1kJAA+MXFAPTAwADwwMAAxKenAKl1dQD8yckAsJOTAPbExADGlJQAyZiYAMqdnQDLoqIA27KyANus
+        rACldnYA++LiAPzd3QD31tYAroqKAPzOzgCzkJAAwZWVAOzBwQC7oqIA7Lm5ANWmpgD//f0A/+LiAP/e
+        3gCni4sAs5SUALOZmQCznZ0A1qSkAP3j4wD609MAvIuLAP3LywC+jIwA9czMAPXIyAD1wsIA78LCAPC9
+        vQDJm5sA0KKiAOe1tQDNo6MA3KqqANapqQDZsbEA/+/vAPni4gCshIQAsoKCAPfPzwCsm5sA4rW1AJ5r
+        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
+        yaX53t7///39///39///9PT/s6Sk/7Ofn/+znZ3/s5qa/7OZmf+zl5f/s5WV/7OTk/+zkJD//srK//jF
+        xf/4ycn/yZub/6t4eFoAAAAAAAAAAAAAAAAAAAAAAAAAANWYmBO8iYnx+cbG//zNzf/dsLD/t35+lAAA
+        AAAAAAAA/9DQQ/TFxf7//Pz///r6///39///8/P//+vr///j4///3t7//9vb///Y2P//1dX//9LS///P
+        z///y8v/+sjI//PIyP+2gIDutX5+DwAAAAAAAAAAAAAAAAAAAAAAAAAAzJaWatimpv//zs7//9bW/+i5
+        uf+ueXnVt4CAjLR7e4SebGxv3qqq0/rT0/////////v7///29v//8fH//+7u///o6P//39///9nZ///W
+        1v//09P//9HR///Nzf/9y8v/yJaW/tGUlGYAAAAAAAAAAAAAAAAAAAAAAAAAAOOmphPEkJDI7b6+///P
+        z//+1tb//tXV/+Cvr//dq6v/2KWl/8yZmf+1gYH/nmlp/8GVlf/46Oj///7+///39///8vL//+/v///r
+        6///5eX//9nZ///X1///1dX/88HB/8uZmf3Ynp5+AAAAAAAAAAAAAAAAAAAAAAAAAADws7MdzZqa2eS1
+        tf//1NT//9HR///S0v//5+f//+Xl///j4///5eX//uXl//zd3f/yx8f/yZOT/5pkZP/QoqL/+tnZ//rg
+        4P/95OT//ePj//vb2//0zMz/6bq6/9impv7Xn5/M4KmpQwAAAAAAAAAAAAAAAAAAAAAAAAAAyYKCBNah
+        ocntw8P//9vb///X1///1NT//9PT///R0f//zs7//szM///Kyv/7yMj/+c7O//ne3v/74eH/67u7/6dz
+        c/++iYnn8b29tvK7u8/wt7fU7LW1yemxsazlra189Li4MQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADbp6dc47S0///g4P//2tr//9nZ///X1///1tb//9TU///S0v//0ND//s7O///Ly//6yMj/98LC//bN
+        zf/65eX/78DA/6Vycv2lamo+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAN2oqLz41NT//9/f///d3f//3Nz/s5mZ/7OYmP+zl5f/s5WV/7OTk/+zkpL/spCQ/7KP
+        j//6x8f/9sLC//TLy//54uL/1qKi/6p0dLYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4q2t9f/p6f//5OT//+Dg///f3///3d3//9vb///Z2f//19f//9TU///S
+        0v//z8///s3N//zJyf/4xcX/9MDA//fd3f/zx8f/p3Nz9K1zcwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADptrb///r6///5+f//6Oj//+Hh/7Odnf+znJz/s5qa/7OY
+        mP+zl5f/s5WV/7OTk/+zkZH//83N//rIyP/2w8P/9cvL//bR0f+ue3v+wXh4EAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOu4uPz/+vr///n5///19f//6en//+Li///g
+        4P//3t7//9vb///Y2P//1tb//9PT///Q0P/+zc3//MrK//jFxf/1yMj/98/P/696evihe3sHAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA77i40Pzu7v///Pz///b2///0
+        9P+zpKT/s5+f/7Odnf+zm5v/s5mZ/7OXl/+zlZX/s5OT///Ozv//y8v/+sfH//nPz//mtbX/vIWFwwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxvb1u9czM////
+        ////+fn///X1///y8v//6ur//+Pj///f3///3Nz//9nZ///W1v//09P//9DQ//7MzP/7ycn//M7O/8iU
+        lP/KjIxbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/m
+        5gbzvb3M+Nzc///+/v//+fn///X1///w8P//7e3//+bm///f3///2tr//9fX///U1P//0tL//87O///P
+        z//bqKj/wImJuIiQkAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP/b2xnzv7/N9tDQ//709P//+vr///f3///x8f//7e3//+rq///k5P//2tr//9XV///U
+        1P/7zMz/2KWl/8WPj7vOpaUOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Pzwf/y8t/8r297vPLy//32tr/++Xl//7q6v//6Oj//+Li//nT
+        0//vwsL/4K+v/8+dnefaoaFtvsXFAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xsYL8Lq6Vu66upbqtbXD5bCw3OKt
+        reTeqqrd3KmpwdekpJLVoqJQ65mZBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////n////4f////D////wf///8H///
+        gB///gAP//wAB//4AAP/8AAD//AAAf8QAAH8MAAB+DAAAfg4AAPwAAAD8AAAB+AAAB/AAAB/gAAf/4AA
+        D/+AAA//gAAP/4AAD/+AAA//gAAP/8AAH//gAD//8AB///wB////////KAAAADAAAABgAAAAAQAIAAAA
+        AACACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8Anm5uAOWysgCtnJwA/9bWAMSysgC3hIQAzZqaAPfC
+        wgD+6uoA1bu7ANqmpgCnjY0AwY2NAMKiogCme3sAl2RkAPbNzQDrvLwA++DgAP/09ADWs7MAtZKSALOn
+        pwDnysoAn4GBAL+WlgDOoaEAnXd3AOO+vgC2q6sAvpubAP7KygDPqakAroaGAKN0dADfrKwA8NnZALqH
+        hwDet7cAyZOTAO3DwwD+0NAAr4CAAJ5paQDzx8cAzbCwAMirqwD/5OQA/9zcAPnV1QDyvr4A6ba2ALqe
+        ngD97+8ArXt7AKOIiACzjY0A3rOzAP/6+gCzl5cAs5+fALukpAD55+cA+cfHAOa5uQDEnJwAuI6OAKqE
+        hADgsLAA1KKiALqSkgCqkZEAmWdnAOO2tgDMtLQA1aqqAP/g4ADyw8MAs5ubAPzMzACrj48At6OjAMCs
+        rAD65eUAonJyAPXS0gDrv78AwaqqANevrwCZb28A993dAPXKygD/+PgA/+fnAP/Z2QD/09MA/83NAL2I
+        iADSn58A07S0AKt8fAD829sA+c/PANqoqADmw8MA77u7AOi5uQDcr68A//HxAP/t7QCreHgA+tfXAPfI
+        yAC1kJAA98XFAPPAwADxwMAAxaioAKh3dwD8yckAr5OTAPfExADFk5MAypeXAM2cnADLoqIA27KyANqs
+        rACjeHgA++PjAPzd3QD11tYArYqKAPzOzgCykJAAwZWVAOvBwQC9oaEA7bm5ANWmpgD//f0A/+LiAP/e
+        3gCniooAs5SUALOZmQC1nZ0A1qSkAPzj4wD709MAu4uLAP7LywC+jIwA9MzMAPXIyAD1w8MA8MLCAPC9
+        vQDJm5sA0KGhAOe1tQDNo6MA26qqANipqQDZsbEA/+/vAPji4gCuhIQAsICAAPfPzwCqmZkA4rW1AJ9r
+        awCjcHAA/O7uAKdzcwD/6+sA/+npAKB7ewD/5eUA+d7eALSAgAD52toA/9XVAP/R0QC6iooA/8/PAP/O
+        zgCyj48A/8zMAPTPzwDCj48A+8jIAPbLywDxy8sA+cbGAL2WlgDJlZUA88XFAPbDwwD0wcEAvaOjAPK/
+        vwDtwMAA6bq6AOW3twDktLQA3rGxAP/+/gD//PwA//v7AP/5+QD/9vYA//X1AP/z8wD/8vIA//DwAP/u
+        7gD/6OgA/+bmAP3l5QD/4+MA/+HhAKeQkAD74eEA/9/fALKOjgD/3d0As5GRAP/b2wD73NwA/9raALOT
+        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
+        4AAAAwAA///gAAADAAD/+OAAAAMAAP/gwAAAAwAA/8HgAAADAAD/geAAAAMAAP8B4AAAAwAA/wHwAAAH
+        AAD+AfAAAAcAAP4AAAAADwAA/AAAAAAfAAD4AAAAAH8AAPAAAAAB/wAA8AAAAA//AADgAAAH//8AAOAA
+        AAP//wAAwAAAA///AADAAAAD//8AAMAAAAP//wAAwAAAA///AADAAAAD//8AAMAAAAP//wAAwAAAA///
+        AADgAAAH//8AAOAAAAf//wAA8AAAD///AAD4AAAf//8AAPwAAD///wAA/wAA////AAD/4Af///8AAP//
+        /////wAA////////AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmcHB2mWVllJdjY0O5WVkDAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvc3M1m2ho/ptoaP6WZWXZnXNzWv8A
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApG5u1c+e
+        nv/NnJz/mGdn/pRqaq2aaGgLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAqnBwjbqHh//uu7v/6sDA/6dzc/+YZWW9r3V1BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAq3JyWKx5ef/uu7v/6bq6/+7IyP+hbW3/oGpqhQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAr3d3QKZzc//wvb3/6ba2//DLy//dsLD/lmFh9691
+        dR4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjJOTAqdtbQWAVVUGpXJyU6x4eP/zwMD/7Lm5/+u8
+        vP/22Nj/rXl5/6Rra4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPkZEmwIiIcLuFham4f3/UrHd36al1dfOocnL1oG5u+b6L
+        i//zwsL/7ru7/+y4uP/23d3/0aCg/6FqatIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAABxZiYTsKLi8O3goL8xZKS/9qoqP/ptrb/8r6+//PB
+        wf/xwMD/8r+///PAwP/0wcH/8b6+/+66uv/01tb/6sDA/5ZiYvyudHRPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANegoCi5kZG/vY2N/t+vr//+0ND//9XV///S
+        0v//z8///83N//7MzP/9ysr/+8jI//fGxv/1w8P/88DA//G+vv/11dX/9NDQ/8uYmP+eaGj9rnZ2gAAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3KSkSMGMjPDaq6v//9fX///X
+        1///1NT//9LS///R0f//z8///87O//7Nzf/+y8v//MnJ//rHx//4xcX/9cPD//O/v//00dH/+OHh//jb
+        2//jtLT/oWxs/q91dX0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADeo6NGxZCQ+uzB
+        wf//3Nz//9jY///W1v//1dX//9TU///T0///0dH//9DQ///Pz///zc3//szM//zKyv/6x8f/+MXF//XC
+        wv/zv7//8b6+//TQ0P/44eH/4LGx/5tnZ/yzd3c/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2l
+        pRXKlZXo6cDA///e3v//2dn//9nZ///Y2P//19f//9bW///V1f//09P//9LS///Q0P//z8///83N//7M
+        zP/8ysr/+sfH//fFxf/1wsL/8r+//++8vP/xzMz/+eDg/8SSkv+lbm7HAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANyjo4rYqan//+Pj///c3P//3Nz//9vb///a2v//2dn//9jY///W1v//1dX//9TU///S
+        0v//0dH//8/P///Nzf/+zMz//MnJ//nHx//3xMT/9MHB//G+vv/vurr/9NjY//HLy/+ga2v+p3JyOQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvY2NBtCcnOn10tL//+Dg///f3///3t7//93d///c3P/mxsb/5sXF/+bD
+        w//mwsL/5sDA/+a/v//mvb3/5ry8/+a7u//mubn/5re3/+K1tf/4xsb/9sPD//PAwP/wvb3/8MLC//rj
+        4/+5hIT/oGtriAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAr319JrJzcwgAAAAA5KysLdGenv7/5eX//+np///j4///4OD//9/f///e
+        3v+zm5v/s5qa/7OZmf+zmJj/s5eX/7OWlv+zlZX/s5OT/7OSkv+zkZH/spCQ/7KOjv/6yMj/98XF//XC
+        wv/yv7//77q6//ni4v/Pn5//n2xswgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAt319HrB4eIasdXXcnXR01v8AAAEAAAAA566uT9moqP//7Oz///v7///3
+        9///5+f//+Hh///g4P//39///93d///c3P//2tr//9nZ///X1///1dX//9PT///S0v//0ND//87O//7M
+        zP/8ycn/+cbG//bDw//zwMD/8Ly8//XV1f/etLT/oW1t4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALSSkgi0fn6JpnJy+LuIiP+qd3f/q3d3eAAAAAAAAAAA6K6uUtus
+        rP//8vL///r6///4+P//9fX//+jo///i4v/my8v/5snJ/+bIyP/mxsb/5sXF/+bDw//mwsL/5sDA/+a+
+        vv/mvb3/5ru7/+a5uf/9y8v/+8jI//jFxf/1wsL/8r+///TPz//kvLz/om5u7AAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAypCQFK96esq3hIT/5rOz//TDw/+kcXH+vX19JQAA
+        AAAAAAAA5rOzOdilpf7/8vL///v7///4+P//9fX///Pz///o6P+zn5//s56e/7Odnf+znJz/s5qa/7OZ
+        mf+zmJj/s5aW/7OVlf+zk5P/s5KS/7ORkf/+zMz//MnJ//nGxv/2w8P/88DA//XOzv/es7P/pXNz2AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzkZEItYKCysWSkv/3w8P/9sjI/96x
+        sf+yenrcAAAAAAAAAAAAAAAA/7m5C9mlpfX74uL///39///5+f//9/f///T0///y8v//6Oj//+Li///h
+        4f//39///93d///b2///2dn//9fX///V1f//09P//9HR///Pz///zc3//cvL//rHx//3xMT/9MHB//fS
+        0v/NnZ3/qnZ2pwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADGj4+Dv4yM//vJ
+        yf/3w8P/+tXV/9Ohof+2fn6vAAAAAAAAAAAAAAAAAAAAAOuysrDqxsb///v7///7+///+Pj///b2///z
+        8//m2dn/5tLS/+bMzP/mysr/5sjI/+bGxv/mxcX/5sPD/+bBwf/mv7//5r29/+a8vP//zs7//s3N//vJ
+        yf/4xcX/9cLC//vV1f+1gID/rHx8XQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANKh
+        oRK7hob08b6+//zJyf/5xsb//Nvb/9Kenv+3f3+iAAAAAAAAAAAAAAAAAAAAAPC5uTvcp6f9/Orq///8
+        /P//+vr///f3///19f+zqqr/s6mp/7Ompv+zoaH/s52d/7Obm/+zmpr/s5iY/7OXl/+zlpb/s5SU/7OT
+        k///zs7//szM//zKyv/5xsb/+cjI/92wsP+xfHzjoGpqCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAM+YmG7Kl5f//9DQ//7Kyv/8zMz//dzc/9uoqP+wfHzFvYKCNLqCgii3goIktn19GKdH
+        RwPksrKW47a2///09P///Pz///r6///39///9PT///Ly///v7///7e3//+np///i4v//3d3//9ra///Y
+        2P//1tb//9PT///R0f//z8///83N//3Kyv/9ycn/8MDA/7eDg/3KjY1TAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANCXl7vksrL//8/P//7Nzf/+0ND//t/f//G9vf+yf3//sn9//616
+        ev+reHj/pnR0/qJxcfKgbGzLvomJ/NisrP//8vL///v7///6+v//9/f///T0///x8f//7+///+zs///p
+        6f//5+f//+Dg///Z2f//1tb//9TU///S0v//0dH//87O///Pz//vvr7/u4iI/s2VlYMAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4qenWcSPj/f2xsb//9DQ///Pz///0ND//+bm///R
+        0f//0tL//9HR//3Nzf/8ycn/9cHB/+i0tP/UoaH/uoaG/5toaP+nc3P/3r6+///4+P//+Pj///j4///1
+        9f//8vL///Dw///s7P//6+v//+jo///l5f//2dn//9bW///T0///09P//8/P/9uoqP+9h4f40ZeXcgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBYWAPcqKiOzpub/e/Bwf//1dX//9HR///R
+        0f//0ND//+Li///n5//+5ub//+bm//3l5f/95eX//OPj//vd3f/51NT/+MjI/++7u//MmJj/nmlp/6t4
+        eP/nwsL/++Hh///u7v//8PD//+7u///t7f//6+v//+jo///k5P//3Nz//9fX//PFxf/bqqr/w4+P/suV
+        lb/WnZ0yAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGrq4bToKD+/NLS///Y
+        2P//1NT//9TU///T0///0tL//9TU///X1///09P//tHR//7Q0P/90ND/+9LS//rX1//74OD/+uXl//jd
+        3f/0ycn/7rm5/7uIiP+ZZWX/y5eX/tuoqP/fsLD/47e3/+W7u//lurr/4rW1/9ysrP/ToqL/x5OT/sWN
+        jeXRm5uY3aOjNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9ba2Qtaj
+        o/3709P//9ra///X1///1tb//9bW///V1f//1NT//9PT///R0f//0ND//8/P///Nzf/+zMz//MrK//rI
+        yP/4xMT/98vL//nb2//55eX/9dfX//G9vf/Nmpr/mGNj9ryJiWjdqKhe5K6ueuOtrYjiqamK4Kiohdul
+        pXDapqZT3J2dJf///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8B2KCgy+zCwv//3d3//9ra///Z2f//2dn//9jY///X1///1tb//9TU///T0///0tL//9DQ///P
+        z///zc3//szM//zKyv/6x8f/+MXF//XCwv/1zs7/+eTk//bd3f/uvLz/xpOT/5poaN20bW0MAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADZpqZA3Kmp/v/f3///3t7//9zc///b2///29v//9ra///Z2f//19f//9bW///V
+        1f//09P//9LS///R0f//z8///83N//7MzP/8ycn/+sfH//fExP/0wcH/9MjI//jl5f/01tb/7rm5/616
+        ev+rdnZ6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgrKyQ67+////i4v//39///97e///d3f//3d3/5sbG/+bG
+        xv/mxMT/5sPD/+bCwv/mwMD/5r+//+a9vf/mvLz/5ru7/+a5uf/mt7f/4rW1//nGxv/2w8P/88DA//TM
+        zP/45ub/8MPD/9Kfn/+rdHTcAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADksLDI9c/P///k5P//4uL//+Dg///g
+        4P//39//s5yc/7Oamv+zmpr/s5mZ/7OYmP+zl5f/s5aW/7OVlf+zk5P/s5KS/7ORkf+ykJD/so6O//zI
+        yP/4xcX/9cLC//K+vv/33d3/9NbW/+u3t/+lcHD9v4KCHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADnsbHq+dra///7
+        +///9vb//+fn///i4v//4eH//9/f///e3v//3d3//9vb///a2v//2Nj//9fX///V1f//09P//9HR///Q
+        0P//zs7//szM//zKyv/5x8f/98TE//TBwf/0y8v/9+Li//C6uv+seXn/uHt7PAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADosrL0++Li///9/f//+fn///b2///p6f//4+P/5svL/+bKyv/mycn/5sfH/+bGxv/mxcX/5sPD/+bB
+        wf/mwMD/5r6+/+a9vf/mu7v/5rm5///Ly//7yMj/+MXF//XCwv/zwMD/+ujo//C7u/+vfHz/tYKCRAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADrtrbm+t/f///+/v//+Pj///b2///09P//6en/s5+f/7Ofn/+znZ3/s52d/7Ob
+        m/+zmpr/s5iY/7OYmP+zlpb/s5WV/7OTk/+zkpL/s5GR//7MzP/8ysr/+cfH//bExP/zwMD/+OHh//G8
+        vP+ue3v+uX19LgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuurq8+NXV///9/f//+fn///f3///19f//8/P//+np///j
+        4///4uL//+Dg///e3v//3d3//9vb///Z2f//19f//9XV///T0///0dH//8/P///Nzf/9y8v/+8jI//jF
+        xf/1wsL/+NnZ/+aysv+wfHzzwoCACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADvvb1088XF///7+///+/v///r6///2
+        9v//9PT/5tra/+bS0v/mzc3/5szM/+bKyv/myMj/5sbG/+bFxf/mw8P/5sHB/+a/v//mvb3/5ry8///O
+        zv/+zMz//MnJ//nGxv/3zMz/98nJ/9Genv+/h4euAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/yckX8r299fzm
+        5v///f3///v7///4+P//9vb/s6ur/7Oqqv+zpaX/s6Gh/7Oenv+znZ3/s5ub/7Oamv+zmJj/s5eX/7OW
+        lv+zlJT/s5OT///Pz//+zMz//srK//rHx//4zc3/8r6+/7qGhv7Qk5M/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/8zMffTDw/7/9PT///z8///6+v//9/f///X1///z8///8PD//+7u///o6P//4uL//97e///c
+        3P//2tr//9jY///W1v//09P//9HR///Pz///zc3//cvL//vJyf/7ycn/ypeX/8eSkqkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/9raBPTAwLn1x8f//vPz///8/P//+vr///f3///09P//8vL//+/v///t
+        7f//6+v//+fn///g4P//29v//9jY///W1v//1NT//9LS///Q0P//z8///8zM//7Ly//UoaH/wY6O0tqk
+        pBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/t7Qv2vr6z9MPD/vzj4///+Pj///n5///3
+        9///9fX///Ly///v7///7e3//+rq///n5///5eX//9vb///X1///1dX//9LS///R0f//0dH/9sTE/9Cd
+        nf/FkZHJ3KWlFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8D/8nJc/XA
+        wPD1ysr/++Hh///x8f//9fX///X1///09P//8fH//+7u///t7f//7Oz//+jo///Y2P//2Nj//9bW//fI
+        yP/erKz/zZiY99ihoYnZjo4IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP/e3hX/zMyF8b295vC8vP/yyMj/9dHR//nY2P/73d3//N/f//3d3f/719f/9s7O//DE
+        xP/mtrb/2aam/9Shoe/ep6eV6rGxJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/83NBO68vD3uvLx667e3req2ttLosrLt5bCw9+Ou
+        rvjgqqry3qur292oqLbYpqaL06KiSPmjowoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP////8//wAA/////4f/
+        AAD/////g/8AAP////+B/wAA/////4D/AAD/////wP8AAP////+AfwAA////4AB/AAD///+AAH8AAP//
+        /gAAHwAA///8AAAPAAD///gAAA8AAP//8AAABwAA///gAAAHAAD//+AAAAMAAP//4AAAAwAA//jgAAAD
+        AAD/4MAAAAMAAP/B4AAAAwAA/4HgAAADAAD/AeAAAAMAAP8B8AAABwAA/gHwAAAHAAD+AAAAAA8AAPwA
+        AAAAHwAA+AAAAAB/AADwAAAAAf8AAPAAAAAP/wAA4AAAB///AADgAAAD//8AAMAAAAP//wAAwAAAA///
+        AADAAAAD//8AAMAAAAP//wAAwAAAA///AADAAAAD//8AAMAAAAP//wAA4AAAB///AADgAAAH//8AAPAA
+        AA///wAA+AAAH///AAD8AAA///8AAP8AAP///wAA/+AH////AAD///////8AAP///////wAA
+</value>
+  </data>
+</root>

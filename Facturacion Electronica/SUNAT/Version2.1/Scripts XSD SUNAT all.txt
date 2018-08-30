@@ -1,0 +1,11 @@
+Scripts XSD SUNAT
+
+SUNAT 2.1 NotaCredito, Boleta, Factura
+
+cd C:\Users\ar.hernandez\Documents\GitHub\Projects\Facturacion Electronica\SUNAT\Version2.1\XSD\maindoc\
+
+ALL
+
+xsd UBL-Invoice-2.1.xsd UBL-DebitNote-2.1.xsd UBL-CreditNote-2.1.xsd UBL-DespatchAdvice-2.1.xsd ../common/UBL-CommonAggregateComponents-2.1.xsd ../common/UBL-CommonBasicComponents-2.1.xsd ../common/UBL-CommonExtensionComponents-2.1.xsd ../common/UBL-QualifiedDatatypes-2.1.xsd ../common/UBL-UnqualifiedDataTypes-2.1.xsd ../common/CCTS_CCT_SchemaModule-2.1.xsd /c /l:VB /n:SUNAT /o:../salida
+
+

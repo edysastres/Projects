@@ -1,0 +1,9 @@
+Scripts XSD SUNAT
+
+cd "C:\Users\ar.hernandez\Documents\Facturacion Electronica\Analisis SUNAT\XSD\maindoc\"
+
+ALL
+
+xsd UBLPE-Invoice-1.0.xsd UBLPE-DebitNote-1.0.xsd UBLPE-CreditNote-1.0.xsd UBLPE-ApplicationResponse-1.0.xsd UBLPE-SummaryDocuments-1.0.xsd UBLPE-VoidedDocuments-1.0.xsd ../common/UBL-CommonAggregateComponents-2.0.xsd ../common/UBL-CommonBasicComponents-2.0.xsd ../common/UnqualifiedDataTypeSchemaModule-2.0.xsd ../common/UBL-CommonExtensionComponents-2.0.xsd ../common/UBL-QualifiedDatatypes-2.0.xsd ../common/CodeList_UnitCode_UNECE_7_04.xsd ../common/CodeList_MIMEMediaTypeCode_IANA_7_04.xsd ../common/CodeList_CurrencyCode_ISO_7_04.xsd ../common/UBLPE-SunatAggregateComponents-1.0.xsd ../common/CodeList_LanguageCode_ISO_7_04.xsd /c /l:VB /n:SUNAT /o:../salida
+
+
