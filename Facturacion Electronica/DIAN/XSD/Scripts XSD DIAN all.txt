@@ -1,0 +1,11 @@
+Scripts XSD SUNAT
+
+SUNAT 2.1 NotaCredito, Boleta, Factura
+
+cd C:\Users\ar.hernandez\Documents\GitHub\Projects\Facturacion Electronica\DIAN\XSD\r1
+
+ALL
+
+xsd DIAN_UBL.xsd DIAN_UBL_Structures.xsd xmldsig-core-schema.xsd  ../UBL2/common/UBL-CommonAggregateComponents-2.0.xsd ../UBL2/common/UBL-CommonBasicComponents-2.0.xsd ../UBL2/common/UBL-CommonExtensionComponents-2.0.xsd ../UBL2/common/UnqualifiedDataTypeSchemaModule-2.0.xsd ../UBL2/common/UBL-QualifiedDatatypes-2.0.xsd ../UBL2/common/CodeList_UnitCode_UNECE_7_04.xsd ../UBL2/common/CodeList_MIMEMediaTypeCode_IANA_7_04.xsd ../UBL2/common/CodeList_CurrencyCode_ISO_7_04.xsd ../UBL2/common/CodeList_LanguageCode_ISO_7_04.xsd /c /l:VB /n:DianV2 
+
+
