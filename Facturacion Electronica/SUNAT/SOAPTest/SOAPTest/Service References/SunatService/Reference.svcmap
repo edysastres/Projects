@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0eafe0f6-dedb-4445-8aae-d18d1a5fe0a8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="billService.wsdl" MetadataType="Wsdl" ID="1b9d60f3-bb0a-4977-822a-5df85fcf77f4" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService?wsdl" />
+    <MetadataFile FileName="billService.xsd" MetadataType="Schema" ID="f9efd4d7-eee6-4fca-95c7-11b9410910fb" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService.xsd2.xsd" />
+    <MetadataFile FileName="billService1.wsdl" MetadataType="Wsdl" ID="0d4444d1-2b84-41cc-a129-23bb22498e90" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService?ns1.wsdl" />
+    <MetadataFile FileName="billService2.wsdl" MetadataType="Wsdl" ID="840cdef2-1d8b-451a-8dff-1bf15cd7c294" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService?ns2.wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
